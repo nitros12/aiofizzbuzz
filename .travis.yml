@@ -1,4 +1,4 @@
 language: python
 python:
   - 3.6
-script: python3 tests/test_fizzbuzz.py
+script: python setup.py install && python3 tests/test_fizzbuzz.py
